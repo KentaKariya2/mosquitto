@@ -81,6 +81,12 @@
 				</listitem>
 			</varlistentry>
 			<varlistentry>
+				<term><option>-I</option></term>
+				<listitem>
+					<para>Choose the iteration count for sha512-pbkdf2. Defaults to 101.</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
 				<term><option>-H</option></term>
 				<listitem>
 					<para>Choose the hash to use. Can be one of
