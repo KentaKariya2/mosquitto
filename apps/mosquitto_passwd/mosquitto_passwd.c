@@ -125,6 +125,7 @@ static void print_usage(void)
 	printf(" -b : run in batch mode to allow passing passwords on the command line.\n");
 	printf(" -c : create a new password file. This will overwrite existing files.\n");
 	printf(" -D : delete the username rather than adding/updating its password.\n");
+	printf(" -I : specify the iteration count for sha512-pbkdf2. Defaults to 101.\n");
 	printf(" -H : specify the hashing algorithm. Defaults to sha512-pbkdf2, which is recommended.\n");
 	printf("      Mosquitto 1.6 and earlier defaulted to sha512.\n");
 	printf(" -U : update a plain text password file to use hashed passwords.\n");
